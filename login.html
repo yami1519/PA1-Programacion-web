@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Botica Salud</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Acceso al Sistema</h2>
+    <form onsubmit="validarLogin(event)">
+      <label for="usuario">Usuario</label>
+      <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario">
+
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
+
+      <button type="submit">Ingresar</button>
+    </form>
+    <p class="nota">Botica Salud © 2025</p>
+  </div>
+
+  <script src="funciones.js"></script>
+</body>
+</html>
